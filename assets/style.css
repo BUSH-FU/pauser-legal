@@ -57,11 +57,18 @@ code, pre {
 }
 .nav-logo:hover { text-decoration: none; }
 .nav-logo-mark {
-  display: inline-flex; align-items: center; justify-content: center;
+  display: inline-block;
   width: 28px; height: 28px;
-  background: rgba(251, 201, 91, 0.18);
-  color: var(--accent);
-  border-radius: 8px; font-size: 16px; line-height: 1;
+  border-radius: 8px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.brand-icon {
+  display: block;
+  width: 96px; height: 96px;
+  border-radius: 22px;
+  margin: 0 auto 18px;
+  box-shadow: 0 8px 24px rgba(185, 138, 44, 0.18);
 }
 .nav-back { font-size: 14px; color: var(--muted); }
 main {
