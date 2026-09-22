@@ -1,0 +1,6 @@
+.DS_Store
+*.tmp
+*.bak
+.DS_Store
+.idea/
+.vscode/

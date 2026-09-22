@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pauser · 用户协议与隐私政策</title>
+  <meta name="description" content="Pauser (iOS 防沉迷 App) 的用户协议与隐私政策。">
+  <link rel="canonical" href="https://bush-fu.github.io/pauser-legal/">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#FBC95B">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fbfaf7;
+      --fg: #1c1c1e;
+      --muted: #6b6b6b;
+      --line: #e7e2d6;
+      --accent: #b98a2c;
+      --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #11100d;
+        --fg: #f1efe9;
+        --muted: #a39e92;
+        --line: #2a2823;
+        --accent: #fbc95b;
+        --card: #1b1a16;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans", "Microsoft YaHei", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+    header { text-align: center; margin-bottom: 56px; }
+    .brand {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 6px 14px; border-radius: 999px;
+      background: rgba(251, 201, 91, 0.16);
+      color: var(--accent);
+      font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
+    }
+    h1 { font-size: 36px; line-height: 1.25; margin: 20px 0 12px; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 16px;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(0,0,0,0.08); }
+    .card h2 { margin: 0 0 8px; font-size: 20px; }
+    .card p { margin: 0; color: var(--muted); }
+    .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    .card a:hover { text-decoration: underline; }
+    .arrow {
+      display: inline-block; margin-left: 4px;
+      transition: transform .2s ease;
+    }
+    .card:hover .arrow { transform: translateX(4px); }
+    footer {
+      margin-top: 64px; padding-top: 24px;
+      border-top: 1px solid var(--line);
+      color: var(--muted); font-size: 13px; text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="brand">PAUSER</span>
+      <h1>用户协议与隐私政策</h1>
+      <p class="meta">最近更新:2026 年 9 月 22 日 · 生效日期:2026 年 9 月 22 日</p>
+    </header>
+
+    <a class="card" href="terms.html" style="display:block;text-decoration:none;color:inherit;">
+      <h2>用户协议 <span class="arrow">→</span></h2>
+      <p>你与开发者之间关于使用 Pauser 的权利、义务与责任。</p>
+    </a>
+
+    <a class="card" href="privacy.html" style="display:block;text-decoration:none;color:inherit;">
+      <h2>隐私政策 <span class="arrow">→</span></h2>
+      <p>我们收集什么、不收集什么,数据如何存储与删除。</p>
+    </a>
+
+    <footer>
+      Pauser · 在你无意识打开短视频的那一刻,替你按下暂停。
+    </footer>
+  </div>
+</body>
+</html>
