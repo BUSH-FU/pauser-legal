@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-zh="Pauser · 在你无意识打开短视频的那一刻,替你按下暂停" data-en="Pauser · A gentle pause before the scroll turns into a habit">Pauser · A gentle pause before the scroll turns into a habit</title>
+  <meta name="description" data-zh="Pauser 是 iOS 上的个人防沉迷工具,在你无意识打开短视频的那一刻,替你按下暂停。" data-en="Pauser is an iOS screen-time app that nudges you to pause a few minutes into the apps you choose — long before the day's gone." content="Pauser is an iOS screen-time app that nudges you to pause a few minutes into the apps you choose — long before the day's gone.">
+  <link rel="canonical" href="https://chongshanai.com/pauser/marketing.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="image_src" href="assets/pauser-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#FBC95B">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pauser · A gentle pause before the scroll turns into a habit">
+  <meta property="og:description" content="An iOS screen-time app that nudges you to pause a few minutes into the apps you choose.">
+  <meta property="og:url" content="https://chongshanai.com/pauser/marketing.html">
+  <meta property="og:image" content="https://chongshanai.com/pauser/assets/pauser-icon.png">
+  <meta property="og:locale" content="en_US">
+  <script src="assets/i18n.js" defer></script>
+  <style>
+    /* Marketing-only layout. Style.css owns the doc-page chrome
+       (.nav, .doc-footer, etc.); the rules below only apply on this
+       landing page and don't affect terms / privacy / support. */
+    body.marketing {
+      background: var(--bg, #fbfaf7);
+    }
+    .marketing-main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 24px 72px;
+    }
+    .hero {
+      padding: 56px 0 32px;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted, #6f6a5f);
+      background: rgba(251, 201, 91, 0.14);
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin: 0 0 20px;
+    }
+    .hero-title {
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin: 0 0 18px;
+      color: var(--fg, #1a1a1a);
+    }
+    .hero-sub {
+      max-width: 640px;
+      margin: 0 auto 28px;
+      font-size: 17px;
+      line-height: 1.55;
+      color: var(--muted, #4d4a42);
+    }
+    .hero-actions {
+      display: inline-flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.12s ease, background 0.12s ease;
+    }
+    .btn-primary {
+      background: linear-gradient(180deg, #FBC95B, #E8A93A);
+      color: #1a1a1a;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+    }
+    .btn-primary:hover { transform: translateY(-1px); }
+    .btn-secondary {
+      background: rgba(0, 0, 0, 0.04);
+      color: var(--fg, #1a1a1a);
+    }
+    .btn-secondary:hover { background: rgba(0, 0, 0, 0.08); }
+
+    /* Screens gallery */
+    .screens {
+      margin: 32px 0 56px;
+    }
+    .screens-title {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted, #8a8576);
+      margin: 0 0 18px;
+    }
+    .screens-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .screens-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 18px;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.10);
+      background: #f3efe5;
+    }
+    @media (max-width: 720px) {
+      .screens-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 420px) {
+      .screens-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Content sections */
+    .section {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 0;
+    }
+    .section h2 {
+      font-size: 26px;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin: 0 0 14px;
+    }
+    .section h3 {
+      font-size: 17px;
+      margin: 18px 0 6px;
+    }
+    .section p, .section li {
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--fg, #2a2a2a);
+    }
+    .section ul, .section ol {
+      padding-left: 1.4em;
+    }
+    .how-list li,
+    .not-list li,
+    .pro-list li {
+      margin-bottom: 12px;
+    }
+    .section-pro {
+      background: rgba(251, 201, 91, 0.10);
+      padding: 28px 28px;
+      border-radius: 18px;
+    }
+    .pro-pricing {
+      margin: 18px 0;
+    }
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .price-row:last-child { border-bottom: 0; }
+    .price-row strong {
+      font-size: 18px;
+    }
+    .price-best strong { color: #b06b00; }
+    .section-cta {
+      text-align: center;
+      padding: 48px 0;
+    }
+    .section-cta .btn-primary {
+      margin-top: 12px;
+      padding: 14px 28px;
+      font-size: 17px;
+    }
+    .pro-foot {
+      font-size: 13px !important;
+      color: var(--muted, #6f6a5f) !important;
+      margin-top: 14px;
+    }
+  </style>
+</head>
+<body class="page-marketing marketing">
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="marketing.html">
+        <img class="nav-logo-mark" src="assets/pauser-icon.png" alt="Pauser">
+        Pauser
+      </a>
+      <div class="nav-actions">
+        <button type="button" class="lang-toggle" data-lang-toggle aria-label="Switch to English">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="marketing-main">
+    <!-- Hero -->
+    <section class="hero">
+      <p class="hero-eyebrow">
+        <span data-lang-show="zh">iOS · 屏幕使用时间 · 完全离线</span>
+        <span data-lang-show="en">iOS · Screen Time · Fully on-device</span>
+      </p>
+      <h1 class="hero-title">
+        <span data-lang-show="zh">在你无意识打开短视频的那一刻,替你按下暂停。</span>
+        <span data-lang-show="en">A gentle pause before the scroll turns into a habit.</span>
+      </h1>
+      <p class="hero-sub">
+        <span data-lang-show="zh">Pauser 不是限时封锁,也不是反沉迷羞辱器。它在你选择的应用累积使用约 3 分钟时,用一次系统级的小停顿,把注意力还给你。</span>
+        <span data-lang-show="en">Pauser is not a hard lock, and not a guilt machine. After about three minutes in one of the apps you choose, it surfaces a calm system-level pause so you can decide whether to keep going.</span>
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://apps.apple.com/app/pauser" rel="noopener noreferrer">
+          <span data-lang-show="zh">下载 Pauser</span>
+          <span data-lang-show="en">Download Pauser</span>
+        </a>
+        <a class="btn btn-secondary" href="#how-it-works">
+          <span data-lang-show="zh">了解工作方式</span>
+          <span data-lang-show="en">How it works</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Screens gallery -->
+    <section class="screens" aria-label="Screenshots">
+      <p class="screens-title">
+        <span data-lang-show="zh">应用界面预览</span>
+        <span data-lang-show="en">A look inside Pauser</span>
+      </p>
+      <div class="screens-grid">
+        <img src="assets/screens/Chongshan-screen-01.jpg" alt="Guarding home screen" loading="lazy" decoding="async">
+        <img src="assets/screens/Chongshan-screen-02.jpg" alt="Pause footprint calendar" loading="lazy" decoding="async">
+        <img src="assets/screens/Chongshan-screen-03.jpg" alt="Per-app guard and timed unlock" loading="lazy" decoding="async">
+        <img src="assets/screens/Chongshan-screen-04.jpg" alt="24h usage rhythm" loading="lazy" decoding="async">
+        <img src="assets/screens/Chongshan-screen-05.jpg" alt="Pause footprint overview" loading="lazy" decoding="async">
+        <img src="assets/screens/Chongshan-screen-06.jpg" alt="Global screen-time stats" loading="lazy" decoding="async">
+      </div>
+    </section>
+
+    <!-- The problem -->
+    <section class="section">
+      <h2>
+        <span data-lang-show="zh">为什么"限时封锁"对你没用</span>
+        <span data-lang-show="en">Why a daily time limit doesn't help</span>
+      </h2>
+      <p>
+        <span data-lang-show="zh">你不会主动选择刷一小时短视频。你是一个视频一个视频地滑过去,回过神来,日已经过了半截。等到系统每日报告告诉你"今天用了 3 小时 22 分钟",已经太晚 — 关键的时间早就丢了。</span>
+        <span data-lang-show="en">Nobody chooses to scroll for an hour. You slide past one, then another, then another — and by the time the system daily report says "3h22m," the moment is gone. The damage happened in those first few minutes, not at hour three.</span>
+      </p>
+      <p>
+        <span data-lang-show="zh">Pauser 在那"前几分钟"里出现,而不是等你刷完一小时才告诉你该停。</span>
+        <span data-lang-show="en">Pauser shows up in those first few minutes — long before the day's gone.</span>
+      </p>
+    </section>
+
+    <!-- How it works -->
+    <section class="section" id="how-it-works">
+      <h2>
+        <span data-lang-show="zh">它怎么工作</span>
+        <span data-lang-show="en">How it works</span>
+      </h2>
+      <ol class="how-list">
+        <li>
+          <strong><span data-lang-show="zh">挑出你想守护的应用</span><span data-lang-show="en">Pick the apps you want to guard</span></strong>
+          <span data-lang-show="zh">— TikTok、Instagram、YouTube Shorts、Reddit,任何容易刷起来的都算。</span>
+          <span data-lang-show="en">— TikTok, Instagram, YouTube Shorts, Reddit, or anything that grabs you.</span>
+        </li>
+        <li>
+          <strong><span data-lang-show="zh">累积约 3 分钟后,Pauser 提示暂停</span><span data-lang-show="en">After ~3 minutes, Pauser nudges you to pause</span></strong>
+          <span data-lang-show="zh">— 一次系统级的轻提醒,不是拦截弹窗。</span>
+          <span data-lang-show="en">— a calm system-level nudge, not a blocking pop-up.</span>
+        </li>
+        <li>
+          <strong><span data-lang-show="zh">选择你打开它的目的</span><span data-lang-show="en">Pick your reason for opening it</span></strong>
+          <span data-lang-show="zh">— 回消息、查个东西、就是想放松、还是只是手滑。</span>
+          <span data-lang-show="en">— reply to a message, look something up, take a break, or just opened it by accident.</span>
+        </li>
+        <li>
+          <strong><span data-lang-show="zh">如果仍要用,设个 5 / 10 分钟的限时通行</span><span data-lang-show="en">If you still need it, grant yourself a 5 / 10 min pass</span></strong>
+          <span data-lang-show="zh">— 时间到了,Pauser 自动把守护恢复。</span>
+          <span data-lang-show="en">— when time's up, Pauser puts the guard back on automatically.</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- What it isn't -->
+    <section class="section">
+      <h2>
+        <span data-lang-show="zh">Pauser 不是</span>
+        <span data-lang-show="en">What Pauser is NOT</span>
+      </h2>
+      <ul class="not-list">
+        <li><span data-lang-show="zh">不是永久封锁 — 你随时可以打开被守护的应用,只是要经过一次暂停</span><span data-lang-show="en">Not a permanent lock. You can always open the app — you just see a pause first.</span></li>
+        <li><span data-lang-show="zh">不是连续打卡 / 不记 streak — 不存在"中断 5 天就前功尽弃"</span><span data-lang-show="en">Not a streak counter. There's no "lose your streak if you skip a day."</span></li>
+        <li><span data-lang-show="zh">不是家长控制 — 它对你自己,不对别人</span><span data-lang-show="en">Not parental control. It's for you, not for someone managing you.</span></li>
+        <li><span data-lang-show="zh">不是反沉迷羞辱器 — 没有红色感叹号,没有"你今天又失败了"</span><span data-lang-show="en">Not a guilt machine. No red exclamation marks. No "you failed today."</span></li>
+      </ul>
+    </section>
+
+    <!-- Privacy -->
+    <section class="section">
+      <h2>
+        <span data-lang-show="zh">隐私默认开启</span>
+        <span data-lang-show="en">Private by default</span>
+      </h2>
+      <p>
+        <span data-lang-show="zh">Pauser <strong>完全离线运行</strong>。没有账号、没有邮箱、没有广告、没有第三方 SDK、没有云同步、没有任何数据上传。你选的应用以 Apple 的匿名 token 存储,我们看不到它的名字,也发不出去。</span>
+        <span data-lang-show="en">Pauser <strong>runs fully offline</strong>. No account, no email, no ads, no third-party SDK, no cloud sync, no uploads. The apps you select are stored as Apple's anonymous tokens — we never see the names, and we have nothing to send.</span>
+      </p>
+      <p>
+        <a href="privacy.html"><span data-lang-show="zh">阅读完整隐私政策 →</span><span data-lang-show="en">Read the full Privacy Policy →</span></a>
+      </p>
+    </section>
+
+    <!-- Pro -->
+    <section class="section section-pro">
+      <h2>
+        <span data-lang-show="zh">Pauser Pro</span>
+        <span data-lang-show="en">Pauser Pro</span>
+      </h2>
+      <p>
+        <span data-lang-show="zh">基础守护永久免费。Pro 解锁更多细节:</span>
+        <span data-lang-show="en">The basic guard is free forever. Pro unlocks a few extras:</span>
+      </p>
+      <ul class="pro-list">
+        <li><span data-lang-show="zh">无限数量守护应用</span><span data-lang-show="en">Unlimited guarded apps</span></li>
+        <li><span data-lang-show="zh">每次暂停的意图历史(月历、回顾)</span><span data-lang-show="en">Detailed intent history per pause (calendar, monthly recap)</span></li>
+        <li><span data-lang-show="zh">更细的自定义守护时长与临时通行选项</span><span data-lang-show="en">Finer-grained guard durations and timed-pass options</span></li>
+        <li><span data-lang-show="zh">更安静的视觉主题</span><span data-lang-show="en">A calmer visual theme</span></li>
+      </ul>
+      <div class="pro-pricing">
+        <div class="price-row">
+          <span><span data-lang-show="zh">月度</span><span data-lang-show="en">Monthly</span></span>
+          <strong>US$2.99</strong>
+        </div>
+        <div class="price-row price-best">
+          <span><span data-lang-show="zh">年度</span><span data-lang-show="en">Yearly</span> · <span data-lang-show="zh">最划算</span><span data-lang-show="en">Best value</span></span>
+          <strong>US$12.99</strong>
+        </div>
+        <div class="price-row">
+          <span><span data-lang-show="zh">永久买断</span><span data-lang-show="en">Lifetime</span></span>
+          <strong>US$19.99</strong>
+        </div>
+      </div>
+      <p class="pro-foot">
+        <span data-lang-show="zh">订阅可在 iOS 设置中随时取消;退款由 Apple 在 <a href="https://reportaproblem.apple.com/" rel="noopener noreferrer">reportaproblem.apple.com</a> 处理。</span>
+        <span data-lang-show="en">Subscriptions can be cancelled anytime in iOS Settings. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com/" rel="noopener noreferrer">reportaproblem.apple.com</a>.</span>
+      </p>
+    </section>
+
+    <!-- FAQ short -->
+    <section class="section">
+      <h2>
+        <span data-lang-show="zh">常见问题</span><span data-lang-show="en">FAQ</span>
+      </h2>
+      <h3><span data-lang-show="zh">支持哪些系统?</span><span data-lang-show="en">What iOS version?</span></h3>
+      <p><span data-lang-show="zh">iOS 16 及以上,iPhone。</span><span data-lang-show="en">iOS 16 or later, iPhone.</span></p>
+      <h3><span data-lang-show="zh">真的不收集数据?</span><span data-lang-show="en">Really no data collection?</span></h3>
+      <p><span data-lang-show="zh">真的。零网络请求,零上传,零账号。</span><span data-lang-show="en">Yes. Zero network calls. Zero uploads. Zero accounts.</span></p>
+      <h3><span data-lang-show="zh">可以只屏蔽某个 App 内部的某类内容吗?</span><span data-lang-show="en">Can it block content inside another app?</span></h3>
+      <p><span data-lang-show="zh">不能 — 这是 iOS 公开能力的边界。第三方 App 只能以"应用级"或"类别级"被遮罩,无法只屏蔽某个 App 内部的某个页面或某类内容。</span><span data-lang-show="en">Not at the moment — this is a limit of the iOS public APIs. Third-party apps can only be shielded at the app or category level, not selectively inside another app.</span></p>
+      <p><a href="support.html"><span data-lang-show="zh">更多 FAQ →</span><span data-lang-show="en">More FAQ →</span></a></p>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-cta">
+      <h2>
+        <span data-lang-show="zh">想少刷一点,但讨厌那种锁死你的工具?</span>
+        <span data-lang-show="en">Want to scroll less, but hate tools that lock you out?</span>
+      </h2>
+      <p>
+        <span data-lang-show="zh">Pauser 就是为这种你设计的。</span>
+        <span data-lang-show="en">Pauser is for you.</span>
+      </p>
+      <a class="btn btn-primary" href="https://apps.apple.com/app/pauser" rel="noopener noreferrer">
+        <span data-lang-show="zh">下载 Pauser</span>
+        <span data-lang-show="en">Download Pauser</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="doc-footer">
+    <p><span data-lang-show="zh">© 2026 Pauser · 在你无意识打开短视频的那一刻,替你按下暂停。</span><span data-lang-show="en">© 2026 Pauser · A gentle pause before the scroll turns into a habit.</span></p>
+    <p>
+      <a href="marketing.html"><span data-lang-show="zh">主页</span><span data-lang-show="en">Home</span></a>
+      · <a href="terms.html"><span data-lang-show="zh">用户协议</span><span data-lang-show="en">Terms of Service</span></a>
+      · <a href="privacy.html"><span data-lang-show="zh">隐私政策</span><span data-lang-show="en">Privacy Policy</span></a>
+      · <a href="support.html"><span data-lang-show="zh">技术支持</span><span data-lang-show="en">Support</span></a>
+    </p>
+  </footer>
+</body>
+</html>
